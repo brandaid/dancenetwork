@@ -1,0 +1,59 @@
+<!doctype html>
+<!--[if (lte IE 8)&!(IEMobile)]><html class="no-js lte-ie8 lte-ie9" lang="en"><![endif]-->
+<!--[if (lte IE 9)&!(IEMobile)]><html class="no-js lte-ie9" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+    {% capture baseurl %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.description %}
+        <meta name="description" content="{{ description }}">
+    {% endif %}
+
+    <!-- TITLE -->
+    <title>{{ page.title }} | {{ site.name }}</title>
+
+    <!-- CSS -->
+    <!-- For old IE -->
+    <!--[if (lte IE 8)&!(IEMobile)]>
+        <link rel='stylesheet' href='{{ baseurl }}css/lte-ie8.css'>
+        {% if page.css %}
+            <link rel='stylesheet' href='{{ baseurl }}css/lte-ie8-{{page.css}}'>
+        {% endif %}
+    <![endif]-->
+
+    <!-- For all other browsers -->
+    <!--[if gt IE 8]><!-->
+        <link rel='stylesheet' href='{{ baseurl }}css/screen.css'>
+        {% if page.css %}
+            <link rel='stylesheet' href='{{ baseurl }}css/{{ page.css }}'>
+        {% endif %}
+    <!--<![endif]-->
+
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+    <!-- JS -->
+    <script>var b = document.documentElement; b.className = b.className.replace(/\bno-js\b/,'js'); b.setAttribute('data-useragent', navigator.userAgent); b.setAttribute("data-platform", navigator.platform );</script>
+
+    <!-- HTML5 Shiv for old IE -->
+    <!--[if (lte IE 8)&!(IEMobile)]>
+    <script type="text/javascript" src="{{ baseurl }}js/ie.js"></script>
+    <![endif]-->
+
+    <!-- Fonts -->
+    {%if site.typekit %}
+    <script src="//use.typekit.net/{{ site.typekit }}.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    {% endif %}
+    {%if page.typekit %}
+    <script src="//use.typekit.net/{{ page.typekit }}.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    {% endif %}
+</head>
+<body>

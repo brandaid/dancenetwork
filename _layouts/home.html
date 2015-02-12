@@ -1,0 +1,31 @@
+---
+layout: home
+---
+{% include head.html %}
+{% include header.html %}
+
+    <!-- Site's Main Content-->
+    <main class="site-main" role="main">
+
+        <!--sample hero-->
+        <section class="hero">
+            <div class="hero__main">
+                <div class="container">
+                    <h1>Hero Sample</h1>
+                </div>
+            </div>
+            <img class="hero__media" src="{{ baseurl }}img/fpo.jpg" alt="for placement only">
+        </section>
+
+        <!-- sample marketing section.  Styles specific to this section will be in _5_sections/_marketing.scss -->
+        <section class="marketing">
+            <div class="container">
+
+                {{ content }}
+
+            </div>
+        </section>
+
+    </main>
+
+{% include footer.html %}

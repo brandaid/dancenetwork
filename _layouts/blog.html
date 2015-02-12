@@ -1,0 +1,23 @@
+---
+layout: blog
+---
+{% include head.html %}
+{% include header.html %}
+
+    <!-- Site's Main Content-->
+    <main class="site-main" role="main">
+
+        <!-- sample blog section.  Styles specific to this section will be in _5_sections/_blog.scss -->
+        <section class="blog">
+            <div class="container">
+
+                <h1>{{ page.title }}</h1>
+
+                {{ content }}
+
+            </div>
+        </section>
+
+    </main>
+
+{% include footer.html %}

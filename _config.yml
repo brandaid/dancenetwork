@@ -1,0 +1,40 @@
+name:        Site Name
+
+safe:        false
+host:        0.0.0.0
+port:        4000
+baseurl:     /
+url:         http://localhost:4000
+lsi:         false
+markdown:    kramdown
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+include:
+    - '.htaccess'
+    - _1_foundations
+    - _mixins
+    - _2_layout
+    - _3_elements
+    - _4_modules
+    - _5_sections
+    - '*.scss'
+exclude:
+    - node_modules
+    - Gruntfile.js
+    - package.json
+    - bower.json
+    - README.md
+    - TODO.md
+
+future:      true
+show_drafts: nil
+limit_posts: 0
+pygments:    false
+
+relative_permalinks: false
+
+permalink:   /:title/
+paginate_path: 'page:num'
