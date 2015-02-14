@@ -28,29 +28,54 @@
 //
 // --------------------------------------------------------
 
-$georgia: Georgia, Cambria, "Times New Roman", Times, serif;
-$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$lucida-grande: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
-$monospace: "Bitstream Vera Sans Mono", Consolas, Monaco, 'Andale Mono', monospace;
-$palatino: Palatino, "Times New Roman", Times, serif;
-$verdana: Verdana, Geneva, sans-serif;
+
+@include embed-font('PlutoSans', '#{$baseurl}fonts/PlutoSansLight/2B5DE8_9_0'  , 'normal', 300);
+@include embed-font('PlutoSans', '#{$baseurl}fonts/PlutoSansRegular/2B5DE8_B_0', 'normal', 400);
+@include embed-font('PlutoSans', '#{$baseurl}fonts/PlutoSansRegular/2B5DE8_6_0', 'normal', 600);
 
 
+$pluto-sans: "PlutoSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+// Typekit
+$brandon: "brandon-grotesque", sans-serif;
+
+@mixin brandon {
+  font-family: $brandon;
+  font-style: normal;
+  font-weight: 900;
+}
 
 
 //
 //   @sans
 // --------------------------------------------------------
 //
-//  use @extend %sans for this font
+//  use @include sans for this font
 //
 // --------------------------------------------------------
 
-.sans,
-%sans {
-  font-family: $helvetica;
-  font-weight: normal;
+@mixin sans {
+  font-family: $pluto-sans;
+  font-weight: 400;
 }
+
+
+
+
+//
+//   @sans-light
+// --------------------------------------------------------
+//
+//  use @include sans-light for this font
+//
+// --------------------------------------------------------
+
+@mixin sans-light {
+  font-family: $pluto-sans;
+  font-weight: 300;
+}
+
 
 
 
@@ -59,46 +84,10 @@ $verdana: Verdana, Geneva, sans-serif;
 //   @sans-bold
 // --------------------------------------------------------
 //
-//  use @extend %sans-bold for this font
+//  use @include sans-bold for this font
 //
 // --------------------------------------------------------
-
-.sans-bold,
-%sans-bold {
-  font-family: $helvetica;
-  font-weight: bold;
-}
-
-
-
-
-//
-//   @serif
-// --------------------------------------------------------
-//
-//  use @extend %serif for this font
-//
-// --------------------------------------------------------
-
-.serif,
-%serif {
-  font-family: $georgia;
-  font-weight: normal;
-}
-
-
-
-
-//
-//   @serif-bold
-// --------------------------------------------------------
-//
-//  use @extend %serif-bold for this font
-//
-// --------------------------------------------------------
-
-.serif-bold,
-%serif-bold {
-  font-family: $georgia;
-  font-weight: bold;
+@mixin sans-bold {
+  font-family: $pluto-sans;
+  font-weight: 600;
 }

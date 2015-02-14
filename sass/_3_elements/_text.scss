@@ -20,8 +20,14 @@
 //
 // --------------------------------------------------------
 
-p {
-  margin-bottom: 1em;
+.main-text {
+    @include sans-light;
+    font-size: 24px;
+    margin-bottom: 34px;
+
+    @include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: false) {
+        font-size: 18px;
+    }
 }
 
 
@@ -39,7 +45,8 @@ p {
 
 b,
 strong {
-  @extend %sans-bold;  // If using a bold web-font, you specify the font, not the weight
+  @include sans-bold;
+
 }
 
 i,

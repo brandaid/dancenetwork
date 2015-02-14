@@ -1,0 +1,1941 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bls",
+				"bdls	border-left-style"
+			],
+			[
+				"show",
+				"showSecQs1"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"sec",
+				"sec_question1"
+			],
+			[
+				"secqs",
+				"secqs_model"
+			],
+			[
+				"s",
+				"secqs_model"
+			],
+			[
+				"edit",
+				"edit_attr"
+			],
+			[
+				"temp",
+				"template"
+			],
+			[
+				"groups_",
+				"groups_display"
+			],
+			[
+				"get",
+				"getEngagement"
+			],
+			[
+				"filter",
+				"filter_groups_menu"
+			],
+			[
+				"issue",
+				"issue_id"
+			],
+			[
+				"_dr",
+				"_buildDroplist"
+			],
+			[
+				"state",
+				"state_attrs"
+			],
+			[
+				"on",
+				"onChangePressed"
+			],
+			[
+				"pop",
+				"pop_region"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"state_",
+				"state_model"
+			],
+			[
+				"droplist",
+				"droplist_text"
+			],
+			[
+				"defaul",
+				"default_text"
+			],
+			[
+				"sele",
+				"selected_text"
+			],
+			[
+				"Drop",
+				"DroplistComponent"
+			],
+			[
+				"Dr",
+				"DroplistComponent"
+			],
+			[
+				"_get",
+				"_getViewOpts"
+			],
+			[
+				"com",
+				"component_template_helpers"
+			],
+			[
+				"template",
+				"templateHelpers"
+			],
+			[
+				"Droplist",
+				"DroplistBtn"
+			],
+			[
+				"event_typ",
+				"event_type_attr"
+			],
+			[
+				"ti",
+				"titleize"
+			],
+			[
+				"vie",
+				"viewClass"
+			],
+			[
+				"view",
+				"viewEventPrefix"
+			],
+			[
+				"re",
+				"recent-history__item"
+			],
+			[
+				"ene",
+				"event_type_id"
+			],
+			[
+				"pa",
+				"patient_model"
+			],
+			[
+				"dr",
+				"dropdown_menu"
+			],
+			[
+				"child",
+				"childViewEventPrefix"
+			],
+			[
+				"scrol",
+				"scroll_to_view_bottom"
+			],
+			[
+				"scro",
+				"scroll_to_view_bottom"
+			],
+			[
+				"picklist",
+				"picklist_height"
+			],
+			[
+				"scroll_to_view",
+				"scroll_to_view_top"
+			],
+			[
+				"high",
+				"highlighted"
+			],
+			[
+				"pickli",
+				"picklist_height"
+			],
+			[
+				"pick",
+				"picklist_height"
+			],
+			[
+				"highlig",
+				"highlighted_bottom"
+			],
+			[
+				"set",
+				"setHighlightedItem"
+			],
+			[
+				"hight",
+				"highlighted_view"
+			],
+			[
+				"Fac",
+				"FactorManager"
+			],
+			[
+				"add",
+				"add_factor_view"
+			],
+			[
+				"Pat",
+				"PatientRisk"
+			],
+			[
+				"showSel",
+				"showSelectRisk"
+			],
+			[
+				"Sub",
+				"SubCatList"
+			],
+			[
+				"showSe",
+				"showSelectRisk"
+			],
+			[
+				"setL",
+				"setListeners"
+			],
+			[
+				"showS",
+				"showSelectedRisk"
+			],
+			[
+				"templ",
+				"templateHelpers"
+			],
+			[
+				"subcat",
+				"subcat_collection"
+			],
+			[
+				"sub",
+				"subcat_collection"
+			],
+			[
+				"subcas",
+				"subcats_collection"
+			],
+			[
+				"setC",
+				"setCooltipDaysAgo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/.gitignore",
+			"settings":
+			{
+				"buffer_size": 62,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_images.scss",
+			"settings":
+			{
+				"buffer_size": 727,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/index.html",
+			"settings":
+			{
+				"buffer_size": 2207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_quote.scss",
+			"settings":
+			{
+				"buffer_size": 404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dancenetwork.sublime-project",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_text.scss",
+			"settings":
+			{
+				"buffer_size": 1428,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_site-document.scss",
+			"settings":
+			{
+				"buffer_size": 1044,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/_layouts/home.html",
+			"settings":
+			{
+				"buffer_size": 391,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/_config.yml",
+			"settings":
+			{
+				"buffer_size": 686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/sass/_1_base/_fonts.scss",
+			"settings":
+			{
+				"buffer_size": 2328,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/sass/_1_base/_mixins/_embed-font.scss",
+			"settings":
+			{
+				"buffer_size": 1541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_container.scss",
+			"settings":
+			{
+				"buffer_size": 831,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 194 files for \"$maxwidth\"\n\n/Users/npruitt/Sites/dancenetwork/sass/_1_base/_vars.scss:\n   53  $bp-xs                  : em(480,16);\n   54  \n   55: $maxwidth               : em(1440);\n   56  \n   57  \n\n/Users/npruitt/Sites/dancenetwork/sass/_2_layout/_container.scss:\n   22    @extend %clearfix;\n   23    margin: 0 auto;\n   24:   max-width: $maxwidth; // restricts width\n   25    padding: 0 rem(32);   // adds padding on viewports less than the max-width\n   26  }\n\n2 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/sass/_1_base/_vars.scss",
+			"settings":
+			{
+				"buffer_size": 6676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_headings.scss",
+			"settings":
+			{
+				"buffer_size": 1173,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 124.0,
+		"selected_items":
+		[
+			[
+				"set s scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"set syntax: scs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"set syntax: scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Prototype"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"prefs",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 475.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/npruitt/Sites/dancenetwork/.scss-lint.yml",
+		"/Users/npruitt/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_quote.scss",
+		"/Users/npruitt/Sites/dancenetwork/vendor/jquery/src/var/hasOwn.js",
+		"/Users/npruitt/Sites/dancenetwork/sass/screen.scss",
+		"/Users/npruitt/Sites/dancenetwork/vendor/selectivizr/selectivizr.js",
+		"/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_icons.scss",
+		"/Users/npruitt/Sites/dancenetwork/css/screen.css",
+		"/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_tables.scss",
+		"/Users/npruitt/Sites/dancenetwork/_includes/head.html",
+		"/Users/npruitt/Sites/dancenetwork/_layouts/blog.html",
+		"/Users/npruitt/Sites/dancenetwork/sass/_1_base/_mixins/_timing-functions.scss",
+		"/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_site-footer.scss",
+		"/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_site-document.scss",
+		"/Users/npruitt/Sites/dancenetwork/sass/_2_layout/_shapes.scss",
+		"/Users/npruitt/Sites/dancenetwork/sass/_1_base/_skins.scss",
+		"/Users/npruitt/Sites/dancenetwork/fonts/BLOKKNeue-Regular_webfont.htm",
+		"/Users/npruitt/Sites/dancenetwork/fonts/BLOKKRegular_webfont.htm",
+		"/Users/npruitt/Sites/dancenetwork/.bowerrc",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_4_desktop/layout/_layout-helpers.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Inbox/layout.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/gulp/tasks/lint.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Clinicians/Profile/Settings/secqs-edit.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Clinicians/Profile/Settings/secqs.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/entities/security_question.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/components/select-list_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/components/select-list_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/behaviors/selected_trigger.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/PatientProfile/InlineForm/secondary-conditions.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/rwprovider_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/rwprovider.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Clinicians/Profile/Basics/editing.layout.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/css/provider-mobile.css",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-mobile/apps/patients/patient/create-risk/factor-manager/factor-manager_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/mobile/PatientRisk/Create/FactorManager/pre-existing.composite.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/mobile/PatientRisk/Create/FactorManager/layout.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-mobile/apps/patients/patient/create-risk/create-risk_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_3_mobile/modules/_modals-m.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_3_mobile/modules/_edit-list-m.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/mobile/PatientRisk/Create/modal-selectlist.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/mobile/PatientRisk/Create/FactorManager/message.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_3_mobile/modules/_modules-inc-m.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_3_mobile/modules/_comment-m.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/PatientRisk/Create/layout.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_3_mobile/modules/_create-risk-m.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/mobile/PatientRisk/Create/FactorManager/selected.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/insights/engagement/engagement_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Patient/CheckIn/modal-heading.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/regions/modal_region.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/behaviors/model_render.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/config/manifest.json",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_2_modules/lists/_edit-list.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/PatientProfile/edit-status.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Components/InlineForm/edit.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_4_desktop/modules/_edit-list-d.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/controller/create-risk_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/clinicians/create/create_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/config/component.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/entities/model/user.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/clinicians/clinician/profile/profile_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Clinicians/Profile/Settings/password-edit.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Clinicians/Profile/Basics/display.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/clinicians/create/create_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/clinicians/clinician/clinician_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Clinicians/Profile/basics-edit.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/components/droplist_component.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/clinicians/clinician/profile/profile_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Clinicians/Profile/layout.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Clinicians/Profile/Settings/activity-emails-edit.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/components/datepicker_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_2_modules/_buttons.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Clinicians/Profile/Basics/editing.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/classes/controller/providerapp.php",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/patients/patient/overview/overview_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_4_desktop/modules/_picklist.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_4_desktop/modules/pages/_create-risk.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/patients/patient/overview/overview_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/core/Patient/overview.layout.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/entities/orgpatient.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/mobile/Patient/overview.layout.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/insights/insights_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/insights/insights_app.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/patients/inline_form_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/entities/issue.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Patient/sidebar.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/globals/app_frame_object.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_2_modules/_status-icons.scss",
+		"/Users/npruitt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/patients/risks/risks_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/regions/preload_region.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/patients/risks/risks_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/components/issues_dropdown.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/config/app_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/clinicians/clinician/profile/profile_groups_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Globals/app-frame.layout.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/patients/patient/create-risk/factor-manager/factor-manager_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_4_desktop/layout/_main-app-regions.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/entities/model/issue.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/classes/controller/insights.php",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/insights/insights_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/insights/risk_identification/risk_identification_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/insights/care_coordination/care_coordination_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/insights/risk_prevalence/risk_prevalence_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_1_core/_reset.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_2_modules/_risk-listing.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_4_desktop/layout/_bottom-fixed-bar.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_2_modules/lists/_inbox-list.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_3_mobile/modules/_my-task-list-m.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_3_mobile/modules/_patient-profile-m.scss",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/insights/risk_identification/risk_identification_views.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/config/controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/globals/modal_controller.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/entities/user.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/mobile/Patient/sidebar.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Globals/Modals/reassign-patients-tasks.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/components/groups_dropdown.js",
+		"/Users/npruitt/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/apps/globals/droplist_object.js",
+		"/Users/npruitt/Library/Application Support/Sublime Text 3/Packages/User/snippets/js/function.sublime-snippet",
+		"/Users/npruitt/Library/Application Support/Sublime Text 3/Packages/User/snippets/js/marionettecv.sublime-snippet",
+		"/Users/npruitt/Library/Application Support/Sublime Text 3/Packages/User/snippets/js/marionettelv.sublime-snippet",
+		"/Users/npruitt/Library/Application Support/Sublime Text 3/Packages/User/snippets/js/marionetteiv.sublime-snippet",
+		"/Users/npruitt/Library/Application Support/Sublime Text 3/Packages/User/snippets/js/bbmodelextend.sublime-snippet",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/classes/model/engagementstats.php",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/components/content-editable.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Clinicians/context-trail.item.hbs",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/gulp/config.js",
+		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-mobile/rwprovider_views.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 119.0,
+		"where_history":
+		[
+			"/Users/npruitt/Sites/dancenetwork",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass/_3_mobile",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/_3_mobile",
+			"/Users/npruitt/RoundingWell/RWell/mainapp",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets",
+			"/Users/npruitt/RoundingWell/RWell/mainapp",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider/entities",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/",
+			"/Users/npruitt/RoundingWell/RWell/mainapp/assets/sass",
+			"/Users/npruitt/RoundingWell/RWell/mainapp",
+			"/Users/npruitt/RoundingWell/marionette.inspector/",
+			"/Users/npruitt/RoundingWell/marionette.inspector/extension/css",
+			"/Users/npruitt/RoundingWell/marionette.inspector/extension/js/inspector/app/views",
+			"/Users/npruitt/RoundingWell/marionette.inspector",
+			"/Users/npruitt/RoundingWell/marionette.inspector/templates",
+			"/Users/npruitt/RoundingWell/marionette.inspector",
+			"/Users/npruitt/RoundingWell/RWell/mainapp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"selector",
+			"space",
+			"img src",
+			"quote",
+			"width",
+			"$maxwidth",
+			"page-actions-wrap",
+			" create-risk__factor-manager--text",
+			"label--pre-existing",
+			"container--factor-list",
+			"has_text",
+			"has_",
+			"create-risk__factor-manager--text",
+			"create-risk__factor-manager__label--pre-existing",
+			"create-risk__factor-manager__label--add-factor",
+			"modal__edit-btn",
+			"create-risk__component--btn",
+			"create-risk__component--label",
+			"btn",
+			"create-risk__component--btn",
+			"create-risk__component--label",
+			"container--factor-list",
+			"container--pre-existing",
+			"droplistBtn",
+			"channel",
+			"getDroplistText",
+			"mixinOption",
+			"behavior",
+			"editing",
+			"showBasics",
+			"update::settings",
+			"update::perms",
+			"update::groups",
+			"update::profile",
+			"input-pretty",
+			"Profile.controller",
+			"getRegion",
+			"sec_qs:option:selected",
+			"RWProvider.currentUser.can",
+			"sec_qs1",
+			"showPasswordSettings",
+			"layout_view",
+			"template",
+			"this.droplist",
+			"droplist",
+			"group_ids",
+			"group",
+			"legacy-patient-group",
+			"group",
+			"showSelectLists",
+			"<<<<<<< HEAD",
+			"currentView",
+			"startPreloader",
+			"this.showRisksBy",
+			"showRisks",
+			"showRisksBy",
+			"this.stateModel.set",
+			"this.stateModel",
+			"getRisks",
+			"risks:loaded",
+			"showList",
+			"list_scroll_region",
+			"this.stateModel",
+			"stateModel",
+			"this.stateModel",
+			"startPreloader",
+			"this.layout",
+			".on",
+			"listenTo",
+			".on",
+			"change:",
+			"ignoreWidth",
+			"ignore_width",
+			"state",
+			"stateModel",
+			"statemodel",
+			"Components.DroplistBtn",
+			"git",
+			"setState",
+			"stateModel",
+			"model:",
+			"stateModel",
+			"filters",
+			"issues",
+			"All DFs",
+			"onShowIssueFilter",
+			"this.show(",
+			"this.show",
+			"stateModel",
+			"onChangeSelectedIssue",
+			"stateModel",
+			"role",
+			"controller",
+			"stateModel",
+			"legacy",
+			"objglobals",
+			"objDesktop",
+			"RWProvider.Components.GroupsDropDown",
+			"Components.IssuesDropDown",
+			"showSelectLists",
+			"group_select_list",
+			"list']",
+			"disabled-btn",
+			"btn",
+			"template:",
+			"template",
+			"createPathway",
+			"onFactorsLoaded",
+			"_showDroplist",
+			"state",
+			"getView",
+			"_isShown",
+			"state",
+			"setState",
+			"{{sum",
+			"child_view.$el.outerHeight()",
+			"selected",
+			"scrollTo",
+			"attach",
+			"getHandledModel",
+			"attach",
+			"scroll",
+			"Components.DroplistView",
+			"droplist:select",
+			"defaults",
+			"picklist_handler",
+			"selected",
+			"onSelect"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"buildView",
+			"Component",
+			"Components",
+			"Component",
+			"recent-history",
+			"selected-risk-label",
+			"selected-risk-group",
+			"button--add-factor",
+			"this.region",
+			"Droplist",
+			"'",
+			"$black-95",
+			"$black-90",
+			"$black-80",
+			"$black-60",
+			"$black-40",
+			"$black-20",
+			"black-20",
+			"# enabled: true"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/npruitt/Sites/dancenetwork/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 62,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Seti_UI/Prefs/Langs/Git.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/npruitt/Sites/dancenetwork/_includes/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_images.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								727,
+								727
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/npruitt/Sites/dancenetwork/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								548,
+								548
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 174.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_quote.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Seti_UI/Prefs/Langs/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dancenetwork.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_text.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1428,
+								1428
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 261.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_site-document.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								879,
+								879
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 101.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/npruitt/Sites/dancenetwork/_layouts/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/npruitt/Sites/dancenetwork/_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								685,
+								678
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/npruitt/Sites/dancenetwork/sass/_1_base/_fonts.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1658,
+								1658
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 879.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/npruitt/Sites/dancenetwork/sass/_1_base/_mixins/_embed-font.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								462,
+								462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Seti_UI/Prefs/Langs/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "_container.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								764,
+								764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Seti_UI/Prefs/Langs/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										156,
+										165
+									],
+									[
+										348,
+										357
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/npruitt/Sites/dancenetwork/sass/_1_base/_vars.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1760,
+								1760
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 627.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/Users/npruitt/Sites/dancenetwork/_includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_headings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								869,
+								869
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Seti_UI/Prefs/Langs/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 261.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "dancenetwork.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"_quote",
+				"sass/_4_modules/_quote.scss"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"home",
+				"_layouts/home.html"
+			],
+			[
+				"_img",
+				"sass/_3_elements/_images.scss"
+			],
+			[
+				"_head",
+				"sass/_3_elements/_headings.scss"
+			],
+			[
+				"_con",
+				"sass/_2_layout/_container.scss"
+			],
+			[
+				"conta",
+				"sass/_2_layout/_container.scss"
+			],
+			[
+				"site",
+				"sass/_4_modules/_site-document.scss"
+			],
+			[
+				"_te",
+				"sass/_3_elements/_text.scss"
+			],
+			[
+				"site-",
+				"sass/_4_modules/_site-document.scss"
+			],
+			[
+				"_text",
+				"sass/_3_elements/_text.scss"
+			],
+			[
+				"headings",
+				"sass/_3_elements/_headings.scss"
+			],
+			[
+				"_container",
+				"sass/_2_layout/_container.scss"
+			],
+			[
+				"_font",
+				"sass/_1_base/_fonts.scss"
+			],
+			[
+				"secqs",
+				"assets/js/rwprovider/entities/security_question.js"
+			],
+			[
+				"rw",
+				"assets/js/rwprovider/rwprovider.js"
+			],
+			[
+				"rwprov",
+				"assets/js/rwprovider-desktop/rwprovider_views.js"
+			],
+			[
+				"profile",
+				"assets/js/rwprovider-desktop/apps/clinicians/clinician/profile/profile_controller.js"
+			],
+			[
+				"edit",
+				"assets/sass/_3_mobile/modules/_edit-list-m.scss"
+			],
+			[
+				"modal-m",
+				"assets/sass/_3_mobile/modules/_modals-m.scss"
+			],
+			[
+				"edit-list",
+				"assets/sass/_3_mobile/modules/_edit-list-m.scss"
+			],
+			[
+				"create-risk-m",
+				"assets/sass/_3_mobile/modules/_create-risk-m.scss"
+			],
+			[
+				"drop",
+				"assets/js/rwprovider-desktop/components/droplist_component.js"
+			],
+			[
+				"droplist",
+				"assets/js/rwprovider-desktop/components/droplist_component.js"
+			],
+			[
+				"droplist_",
+				"assets/js/rwprovider-desktop/components/droplist_component.js"
+			],
+			[
+				"_button",
+				"assets/sass/_2_modules/_buttons.scss"
+			],
+			[
+				"providerapp",
+				"classes/controller/providerapp.php"
+			],
+			[
+				"rwp",
+				"assets/js/rwprovider/rwprovider.js"
+			],
+			[
+				"_crea",
+				"assets/sass/_4_desktop/modules/pages/_create-risk.scss"
+			],
+			[
+				"_pickli",
+				"assets/sass/_4_desktop/modules/_picklist.scss"
+			],
+			[
+				"overview_c",
+				"assets/js/rwprovider-desktop/apps/patients/patient/overview/overview_controller.js"
+			],
+			[
+				"overview",
+				"assets/templates/core/Patient/overview.layout.hbs"
+			],
+			[
+				"droplist_c",
+				"assets/js/rwprovider-desktop/components/droplist_component.js"
+			],
+			[
+				"insights_cont",
+				"assets/js/rwprovider-desktop/apps/insights/insights_controller.js"
+			],
+			[
+				"profile_views",
+				"assets/js/rwprovider-desktop/apps/clinicians/clinician/profile/profile_views.js"
+			],
+			[
+				"insights",
+				"assets/js/rwprovider-desktop/apps/insights/insights_app.js"
+			],
+			[
+				"create_c",
+				"assets/js/rwprovider-desktop/apps/clinicians/create/create_controller.js"
+			],
+			[
+				"profile_cont",
+				"assets/js/rwprovider-desktop/apps/clinicians/clinician/profile/profile_controller.js"
+			],
+			[
+				"sideba",
+				"assets/templates/desktop/Patient/sidebar.item.hbs"
+			],
+			[
+				"app_fra",
+				"assets/js/rwprovider-desktop/apps/globals/app_frame_object.js"
+			],
+			[
+				"_reset",
+				"assets/sass/_1_core/_reset.scss"
+			],
+			[
+				"_b",
+				"assets/sass/_2_modules/_buttons.scss"
+			],
+			[
+				"droplist_com",
+				"assets/js/rwprovider-desktop/components/droplist_component.js"
+			],
+			[
+				"component",
+				"assets/js/rwprovider/config/component.js"
+			],
+			[
+				"_buttons",
+				"assets/sass/_2_modules/_buttons.scss"
+			],
+			[
+				"engage",
+				"assets/js/rwprovider-desktop/apps/insights/engagement/engagement_controller.js"
+			],
+			[
+				"controller",
+				"assets/js/rwprovider/config/controller.js"
+			],
+			[
+				"create_cont",
+				"assets/js/rwprovider-desktop/apps/clinicians/create/create_controller.js"
+			],
+			[
+				"manifest",
+				"assets/config/manifest.json"
+			],
+			[
+				"app",
+				"assets/js/rwprovider-desktop/apps/globals/app_frame_object.js"
+			],
+			[
+				"rwpro",
+				"assets/js/rwprovider/rwprovider.js"
+			],
+			[
+				"create_controller",
+				"assets/js/rwprovider-desktop/apps/content/pathway/create/create-pathway_controller.js"
+			],
+			[
+				"com",
+				"assets/js/rwprovider/config/component.js"
+			],
+			[
+				"_picklist",
+				"assets/sass/_4_desktop/modules/_picklist.scss"
+			],
+			[
+				"picklis",
+				"assets/js/rwprovider-desktop/behaviors/picklist.js"
+			],
+			[
+				"picklist",
+				"assets/js/rwprovider-desktop/behaviors/picklist_transport.js"
+			],
+			[
+				"create_views",
+				"assets/js/rwprovider-desktop/apps/clinicians/create/create_views.js"
+			],
+			[
+				"rwpr",
+				"assets/js/rwprovider/rwprovider.js"
+			],
+			[
+				"picklist.js",
+				"assets/js/rwprovider-desktop/behaviors/picklist.js"
+			],
+			[
+				"manife",
+				"assets/config/manifest.json"
+			],
+			[
+				"_butt",
+				"assets/sass/_2_modules/_buttons.scss"
+			],
+			[
+				"model",
+				"assets/js/rwprovider-desktop/behaviors/model_render.js"
+			],
+			[
+				"key_lis",
+				"assets/js/rwprovider-desktop/behaviors/key_listener.js"
+			],
+			[
+				"create-risk_com",
+				"assets/js/rwprovider-desktop/apps/patients/patient/create-risk/create-risk_components.js"
+			],
+			[
+				"pop",
+				"assets/js/rwprovider-desktop/regions/pop_region.js"
+			],
+			[
+				"key",
+				"assets/js/rwprovider-desktop/behaviors/key_listener.js"
+			],
+			[
+				"datepic",
+				"assets/js/rwprovider-desktop/components/datepicker_controller.js"
+			],
+			[
+				"top",
+				"assets/js/rwprovider-desktop/regions/top_region.js"
+			],
+			[
+				"pop_",
+				"assets/js/rwprovider-desktop/regions/pop_region.js"
+			],
+			[
+				"provider-desk",
+				"assets/css/provider-desktop.css"
+			],
+			[
+				"pick",
+				"assets/js/rwprovider-desktop/behaviors/picklist_transport.js"
+			],
+			[
+				"create-risk_view",
+				"assets/js/rwprovider-desktop/apps/patients/patient/create-risk/create-risk_views.js"
+			],
+			[
+				"create-risk_contr",
+				"assets/js/rwprovider-desktop/apps/patients/patient/create-risk/create-risk_controller.js"
+			],
+			[
+				"create-risk",
+				"assets/js/rwprovider/controller/create-risk_controller.js"
+			],
+			[
+				"backbone",
+				"assets/js/vendor/backbone.marionette.min.js"
+			],
+			[
+				"inlin",
+				"assets/js/rwprovider-desktop/apps/patients/inline_form_views.js"
+			],
+			[
+				"inline_form_",
+				"assets/js/rwprovider-desktop/components/inline_form_views.js"
+			],
+			[
+				"orgpatie",
+				"assets/js/rwprovider/entities/model/orgpatient_display.js"
+			],
+			[
+				"create-risk_views",
+				"assets/js/rwprovider-desktop/apps/patients/patient/create-risk/create-risk_views.js"
+			],
+			[
+				"buttons",
+				"assets/sass/_2_modules/_buttons.scss"
+			],
+			[
+				"selec",
+				"assets/js/rwprovider-desktop/behaviors/selected_trigger.js"
+			],
+			[
+				"create-risk_controller",
+				"assets/js/rwprovider-desktop/apps/patients/patient/create-risk/create-risk_controller.js"
+			],
+			[
+				"orgpatient",
+				"assets/js/rwprovider/entities/model/orgpatient_display.js"
+			],
+			[
+				"org",
+				"assets/js/rwprovider/entities/orgpatient.js"
+			],
+			[
+				"orgpa",
+				"assets/js/rwprovider/entities/model/orgpatient.js"
+			],
+			[
+				"rwprovi",
+				"assets/js/rwprovider-desktop/rwprovider_views.js"
+			],
+			[
+				"inline",
+				"assets/js/rwprovider-desktop/components/inline_form_views.js"
+			],
+			[
+				"issue",
+				"assets/js/rwprovider/entities/model/issue.js"
+			],
+			[
+				"iss",
+				"assets/js/rwprovider/entities/issue.js"
+			],
+			[
+				"patient_profile",
+				"assets/js/rwprovider-desktop/apps/patients/patient_profile/patient_profile_controller.js"
+			],
+			[
+				"inline_",
+				"assets/js/rwprovider-desktop/apps/patients/inline_form_views.js"
+			],
+			[
+				"create-risk_",
+				"assets/js/rwprovider/controller/create-risk_controller.js"
+			],
+			[
+				"rsync",
+				"gulp/.rsyncsettings"
+			],
+			[
+				"create-risk_cont",
+				"assets/js/rwprovider-desktop/apps/patients/patient/create-risk/factor-manager/factor-manager_controller.js"
+			],
+			[
+				"patientrisk_task",
+				"assets/js/rwprovider/entities/model/patientrisk_task.js"
+			],
+			[
+				"typ",
+				"assets/sass/_1_core/_typography.scss"
+			],
+			[
+				"_moda",
+				"assets/sass/_3_mobile/modules/_modals-m.scss"
+			],
+			[
+				"_set",
+				"assets/sass/_1_core/_settings.scss"
+			],
+			[
+				"factor-man",
+				"assets/js/rwprovider-desktop/apps/patients/patient/create-risk/factor-manager/factor-manager_views.js"
+			],
+			[
+				"provider",
+				"assets/css/provider-mobile.css"
+			],
+			[
+				"_create",
+				"assets/sass/_3_mobile/modules/_create-risk-m.scss"
+			],
+			[
+				"patient_con",
+				"assets/js/rwprovider-desktop/apps/patients/patient/patient_controller.js"
+			],
+			[
+				"risk-listing-m",
+				"assets/sass/_3_mobile/modules/_risk-listing-m.scss"
+			],
+			[
+				"_modal",
+				"assets/sass/_3_mobile/modules/_modals-m.scss"
+			],
+			[
+				"rwprovider",
+				"assets/js/rwprovider-mobile/rwprovider_views.js"
+			],
+			[
+				"patient",
+				"assets/js/rwprovider-desktop/apps/patients/patient/patient_controller.js"
+			],
+			[
+				"man",
+				"assets/config/manifest.json"
+			],
+			[
+				"_list-m",
+				"assets/sass/_3_mobile/modules/_list-m.scss"
+			],
+			[
+				"_sett",
+				"assets/sass/_1_core/_settings.scss"
+			],
+			[
+				"history-list",
+				"assets/sass/_4_desktop/modules/_history-list-d.scss"
+			],
+			[
+				"status",
+				"assets/sass/_2_modules/_status-icons.scss"
+			],
+			[
+				"history",
+				"assets/sass/_3_mobile/modules/_history-list-m.scss"
+			],
+			[
+				"_setting",
+				"assets/sass/_1_core/_settings.scss"
+			],
+			[
+				"patient_views",
+				"assets/js/rwprovider-mobile/apps/patients/patient/patient_views.js"
+			],
+			[
+				"patient_view",
+				"assets/js/rwprovider-desktop/apps/patients/patient/patient_views.js"
+			],
+			[
+				"manfi",
+				"assets/config/manifest.json"
+			],
+			[
+				"overview_views",
+				"assets/js/rwprovider-desktop/apps/patients/patient/overview/overview_views.js"
+			],
+			[
+				"overview_controllers",
+				"assets/js/rwprovider-desktop/apps/patients/patient/overview/overview_controller.js"
+			],
+			[
+				"manifes",
+				"assets/config/manifest.json"
+			],
+			[
+				"_bt",
+				"assets/sass/_2_modules/_buttons.scss"
+			],
+			[
+				"orgpatient_ac",
+				"assets/js/rwprovider/entities/model/orgpatient_activity.js"
+			],
+			[
+				"_typ",
+				"assets/sass/_1_core/_typography.scss"
+			],
+			[
+				"_list",
+				"assets/sass/_2_modules/lists/_list.scss"
+			],
+			[
+				"_hist",
+				"assets/sass/_4_desktop/modules/_history-list-d.scss"
+			],
+			[
+				"_history",
+				"assets/sass/_2_modules/lists/_history-list.scss"
+			],
+			[
+				"_risk-list",
+				"assets/sass/_2_modules/_risk-listing.scss"
+			],
+			[
+				"_creat",
+				"assets/sass/_4_desktop/modules/pages/_create-risk.scss"
+			],
+			[
+				"_list.sc",
+				"assets/sass/_2_modules/lists/_list.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"bac",
+				"~/RoundingWell/backbone.marionette.sublime-project"
+			],
+			[
+				"",
+				"~/RoundingWell/marionette.inspector.sublime-project"
+			],
+			[
+				"inspec",
+				"~/RoundingWell/marionette.inspector.sublime-project"
+			],
+			[
+				"surv",
+				"~/RoundingWell/surveyapp.sublime-project"
+			],
+			[
+				"survey",
+				"~/RoundingWell/surveyapp.sublime-project"
+			],
+			[
+				"ins",
+				"~/RoundingWell/marionette.inspector.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

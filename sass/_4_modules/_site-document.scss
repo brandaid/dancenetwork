@@ -33,9 +33,10 @@ html {
 // --------------------------------------------------------
 
 body {
+  @include sans-light;
+
   background: $body-color;
   color: $text-color;
-  @extend %sans;
   font-size: em($base-font-size, 16);
   -webkit-font-smoothing: antialiased;
   line-height: $base-line-height;
