@@ -31,7 +31,7 @@
 
 @include embed-font('PlutoSans', '#{$baseurl}fonts/PlutoSansLight/2B5DE8_9_0'  , 'normal', 300);
 @include embed-font('PlutoSans', '#{$baseurl}fonts/PlutoSansRegular/2B5DE8_B_0', 'normal', 400);
-@include embed-font('PlutoSans', '#{$baseurl}fonts/PlutoSansRegular/2B5DE8_6_0', 'normal', 600);
+@include embed-font('PlutoSans', '#{$baseurl}fonts/PlutoSansBold/2B5DE8_6_0', 'normal', 600);
 
 
 $pluto-sans: "PlutoSans", "Helvetica Neue", Helvetica, Arial, sans-serif;

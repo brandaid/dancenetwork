@@ -1,5 +1,3 @@
-//  Make loging safe for all browsers
-window.log=function(){log.history=log.history||[];log.history.push(arguments);if(this.console){console.log(Array.prototype.slice.call(arguments))}};
 // no fading for IE8 & 9 and small devices
 if( PLATFORM.IOS() || PLATFORM.IE8() || PLATFORM.IE9() ) return;
 

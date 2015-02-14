@@ -12,32 +12,9 @@
 // --------------------------------------------------------
 
 .site-footer {
-
-}
-
-
-
-
-//   @site-footer__primary-nav
-// --------------------------------------------------------
-//  The primary navigation in the footer
-// --------------------------------------------------------
-
-.site-footer__primary-nav {
-  // Add custom styles below...
-
-}
-
-
-
-
-//   @site-footer__secondary-nav
-// --------------------------------------------------------
-//  The secondary navigation in the footer
-// --------------------------------------------------------
-
-.site-footer__secondary-nav {
-
+    background-color: #000;
+    padding-bottom: 80px;
+    padding-top: 100px;
 }
 
 
@@ -49,5 +26,23 @@
 // --------------------------------------------------------
 
 .site-credits {
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    text-align: right;
 
+    @include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: false) {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+.social {
+    float: right;
+    > li {
+        display: inline-block;
+        margin-left: 20px;
+    }
 }
