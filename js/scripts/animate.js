@@ -1,10 +1,10 @@
-// no fading for IE8 & 9 and small devices
-if( PLATFORM.IOS() || PLATFORM.IE8() || PLATFORM.IE9() ) return;
-
 // for reference: http://www.html5rocks.com/en/tutorials/speed/animations/#debouncing-scroll-events
 
 var scrollAnimations = (function ($) {
   "use strict";
+
+  // no fading for IE8 & 9 and small devices
+  if( PLATFORM.IOS() || PLATFORM.IE8() || PLATFORM.IE9() ) return;
 
   // set some base vars
   var latestKnownScrollY = 0,
@@ -51,13 +51,13 @@ var scrollAnimations = (function ($) {
   }
 
 
-  $window.on(
+  $window.on({
     // if in view when the page loads
-    'load': function(){
+    load: function(){
       showVisibleSections();
     },
     // if in view when scrolling
-    'scroll': function(){
+    scroll: function(){
       latestKnownScrollY = $(this).scrollTop();
       requestTick();
     }

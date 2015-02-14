@@ -16,8 +16,9 @@ module.exports = function(grunt) {
             dist: {
                 files: {
                     'js/global.js' : [
+                    'js/plugins/flickity.pkgd.js',
                     'js/scripts/logging.js',
-                    'js/scripts/base.js'
+                    'js/scripts/base.js',
                     'js/scripts/animate.js'
                     ]
                 }
