@@ -17,9 +17,11 @@ module.exports = function(grunt) {
                 files: {
                     'js/global.js' : [
                     'js/plugins/flickity.pkgd.js',
+                    'js/plugins/bootstrap.min.js',
                     'js/scripts/logging.js',
                     'js/scripts/base.js',
-                    'js/scripts/animate.js'
+                    'js/scripts/animate.js',
+                    'js/scripts/sign-up.js'
                     ]
                 }
             },

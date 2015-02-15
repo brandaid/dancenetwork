@@ -81,6 +81,7 @@ form {
 
 .field {
   position: relative;
+  margin-bottom: 40px;
 }
 
 
@@ -121,12 +122,21 @@ input[type=week],
 input[type=search],
 textarea,
 select {
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: #e02e26;
+  font-size: 24px;
+  padding: 20px;
   -webkit-appearance: none;
   width: 100%;
 
   &:focus {
     outline: none;
   }
+}
+
+select {
+  background: #fff url(#{$baseurl}img/select-arrow.svg) no-repeat 97% 50%;
 }
 
 // @radios
@@ -154,16 +164,16 @@ input[type="radio"] {
 
 input {
   &::-webkit-input-placeholder {
-    color: $placeholder-txt;
+    color: #e02e26;
   }
   &:-moz-placeholder {
-    color: $placeholder-txt;
+    color: #e02e26;
   }
   &::-moz-placeholder {
-    color: $placeholder-txt;
+    color: #e02e26;
   }
   &:-ms-input-placeholder {
-    color: $placeholder-txt;
+    color: #e02e26;
   }
 }
 // Placeholders on focus
@@ -194,7 +204,12 @@ input:focus {
 // --------------------------------------------------------
 
 .field__label {
+  @include sans-bold;
+
+  color: #e02e26;
   display: block;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 // labels for checkboxes and radios
@@ -323,5 +338,23 @@ input:focus {
     background-position: 5% 50%;
     border-radius: .625em;
     padding: .44em .3125em .35em 1.75em;
+  }
+}
+
+
+.alert {
+  border-radius: 0;
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 40px;
+  padding: 20px;
+  width: 100%;
+
+  &.success {
+    background-color: #14bcc5;
+  }
+
+  &.error {
+    background-color: #e02e26;
   }
 }

@@ -79,7 +79,7 @@ title: Sample Page Title
         <h1 class="h-main h-main--teal  faded-out">You Are Invited to Join Us</h1>
         <p class="main-text">If you love Dance as much as we do, we want your advice in creating Dance Network. We’re looking for those passionate few who will help us make content choices, give feedback on original shows, and be the first to see the new network.</p>
 
-        <button type="button" class="btn">Join Us Now</button>
+        <button type="button" class="btn btn--large" data-toggle="modal" data-target="#signup">Join Us Now</button>
     </div>
 
 </div>
@@ -113,6 +113,51 @@ title: Sample Page Title
 
         <div class="quote__img-block">
             <img class="quote__img quote__img--right quote__img--05" src="{{baseurl}}img/quotes/quote-5.jpg">
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">&times;</button>
+
+            <div class="modal-body">
+                <form class="js-sign-up">
+                    <div class="field">
+                        <label class="field__label">*Name</label>
+                        <input type="text" name="name" id="name" placeholder="First & Last Name">
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label">*Email</label>
+                        <input type="email" name="email" id="email" placeholder="example@example.com">
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label">What’s your favorite type of dance?</label>
+                        <select name="dance" id="dance">
+                            <option value="" selected>-- select --</option>
+                            <option value="Latin">Latin</option>
+                            <option value="Ballet">Ballet</option>
+                            <option value="Hip Hop">Hip Hop</option>
+                            <option value="Ballroom">Ballroom</option>
+                            <option value="Tap">Tap</option>
+                            <option value="Jazz">Jazz</option>
+                            <option value="Flameinco">Flameinco</option>
+                            <option value="Country">Country</option>
+                            <option value="Folk">Folk</option>
+                            <option value="Modern">Modern</option>
+                            <option value="Swing">Swing</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn--red">Let&rsquo;s Dance</button>
+                </form>
+            </div>
+
         </div>
     </div>
 </div>
