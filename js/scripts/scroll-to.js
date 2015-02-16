@@ -1,4 +1,4 @@
-var scrollTo = (function ($) {
+var scrollToSection = (function ($) {
 
     $('.js-scroll').click(function(evt){
         evt.preventDefault();

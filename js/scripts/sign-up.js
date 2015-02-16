@@ -1,4 +1,4 @@
-var scrollAnimations = (function ($) {
+var signUpForm = (function ($) {
 
     var $signup = $('#signup');
 

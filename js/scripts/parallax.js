@@ -3,11 +3,13 @@ var parallax = (function ($) {
     if( PLATFORM.IOS() ) return;
 
     var init = function(){
-        var s = skrollr.init();
+        var s = skrollr.init({
+            forceHeight: false
+        });
     };
 
-    // I think this is somehow still firing before images are loaded
-    // might need Metafizzy imagesLoaded
-    $(window).load(init);
+    imagesLoaded( $('body')[0], function( instance ) {
+      init();
+    });
 
 }($));

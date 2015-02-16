@@ -81,9 +81,17 @@
 // Crudely hide the video from iOS
 @include media('screen and (max-width: 800px)', $no-query-fallback: false) {
   .hero {
-    // background: url(#{$baseurl}video/hero.jpg) #000 no-repeat center center fixed;
-    background-color: #000;
+    background: #fff url(#{$baseurl}img/hero-replace.jpg) no-repeat center center fixed;
     background-size: cover;
+  }
+
+  .hero__inner {
+    background: transparent url(#{$baseurl}img/dot-grid.png) repeat 50% 50%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 
   .hero__video {
@@ -92,8 +100,10 @@
 }
 
 .hero__arrow {
-  position: absolute;
   bottom: 80px;
+  cursor: pointer;
+  display: block;
   left: 50%;
   margin-left: -37px;
+  position: absolute;
 }

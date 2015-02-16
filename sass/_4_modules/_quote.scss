@@ -14,6 +14,10 @@
   width: 100%;
 }
 
+.quote__img-block {
+  overflow: hidden;
+}
+
 .quote__text {
   max-width: 100%;
 }
@@ -51,10 +55,6 @@
 
 @include media('screen and #{map-get($breakpoints-max, "medium")}', $no-query-fallback: false) {
 
-  .quote__img-block {
-    overflow: hidden;
-  }
-
   .quote__img {
     max-height: 450px;
     width: auto;
@@ -73,7 +73,7 @@
   }
 
   .quote__img--04 {
-    margin-left: -230px;
+    margin-left: -280px;
   }
 
 

@@ -5,16 +5,20 @@ layout: home
 {% include header.html %}
 
     <section class="hero">
-        <div class="hero__wrap">
-            <h1 class="hero__heading">Do you love dance?</h1>
+
+        <div class="hero__inner">
+            <div class="hero__wrap">
+                <h1 class="hero__heading">Do you love dance?</h1>
+            </div>
+
+            <video autoplay loop poster="video/hero.jpg" class="hero__video">
+                <source src="video/hero.webm" type="video/webm">
+                <source src="video/hero.mp4" type="video/mp4">
+            </video>
         </div>
 
-        <video autoplay loop poster="video/hero.jpg" class="hero__video">
-            <source src="video/hero.webm" type="video/webm">
-            <source src="video/hero.mp4" type="video/mp4">
-        </video>
-
         <a class="hero__arrow js-scroll" href="#" type="button"><img src="{{ base_url }}/img/arrow-hero.svg"></a>
+
     </section>
 
     <!-- Site's Main Content-->
