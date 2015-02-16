@@ -8,27 +8,6 @@
 //
 // --------------------------------------------------------
 
-.hero {
-  @extend %clearfix;
-
-  background-color: #000;
-  color: #fff;
-
-  @include media('screen and #{map-get($breakpoints, "small")}', $no-query-fallback: true) {
-    min-height: 100%;
-    overflow: hidden;
-  }
-
-  @include media('screen and (max-height: 700px)', $no-query-fallback: true) {
-    min-height: 680px;
-  }
-
-  .lte-ie8 & {
-    // no background-size
-    min-height: 778px !important;
-  }
-}
-
 
 
 

@@ -19,23 +19,81 @@
 // --------------------------------------------------------
 
 .hero {
+  @extend %clearfix;
+
+  color: #fff;
   position: relative;
-  .container {
-    position: relative;
+  width: 100%;
+
+  min-height: 100%;
+  overflow: hidden;
+
+  @include media('screen and (max-height: 700px)', $no-query-fallback: true) {
+    min-height: 680px;
+  }
+
+  .lte-ie8 & {
+    // no background-size
+    min-height: 778px !important;
   }
 }
 
-.hero__media {
-  position: relative;
-  z-index: 1;
+.hero__wrap {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
 }
 
-.hero__main {
-  color: $white;
-  left: 0;
-  padding-top: 20.5%;
+.hero__heading {
+  @include brandon;
+  font-size: 154px;
+  line-height: 120px;
+  max-width: $maxwidth;
+  padding: 0 80px;
+  text-transform: uppercase;
+
+
+  @include media('screen and (max-width: 640px)', $no-query-fallback: false) {
+    font-size: 86px;
+    padding: 0 40px;
+  }
+
+  @include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: false) {
+    font-size: 43px;
+    line-height: 1.25;
+    padding: 0 40px;
+  }
+}
+
+.hero__video {
+  background: url(#{$baseurl}video/hero.jpg) no-repeat;
+  background-size: cover;
+  bottom: 0;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  right: 0;
+  width: auto;
+  z-index: -1;
+}
+
+// Crudely hide the video from iOS
+@include media('screen and (max-width: 800px)', $no-query-fallback: false) {
+  .hero {
+    // background: url(#{$baseurl}video/hero.jpg) #000 no-repeat center center fixed;
+    background-color: #000;
+    background-size: cover;
+  }
+
+  .hero__video {
+    display: none;
+  }
+}
+
+.hero__arrow {
   position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 10;
+  bottom: 80px;
+  left: 50%;
+  margin-left: -37px;
 }
