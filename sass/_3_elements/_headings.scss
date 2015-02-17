@@ -19,32 +19,41 @@
 //
 // --------------------------------------------------------
 
-h1 {
-  font-weight: normal;
-  @extend %text-xxl;
+.h-main {
+  @include brandon;
+  border-left-style: solid;
+  border-left-width: 9px;
+  line-height: 86px;
+  font-size: 86px;
+  margin-bottom: 34px;
+  padding-left: 46px;
+  text-transform: uppercase;
+
+  @include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: false) {
+    font-size: 43px;
+    line-height: 1.25;
+  }
 }
 
-h2 {
-  font-weight: normal;
-  @extend %text-xl;
+.h-main--navy {
+  border-color: #14bcc5;
+  color: #14103e;
 }
 
-h3 {
-  font-weight: normal;
-  @extend %text-l;
+.h-main--red {
+  border-color: #10516e;
+  color: #e02e26;
 }
 
-h4 {
-  font-weight: normal;
-  @extend %text-m;
+.h-main--orange {
+  border-color: #14bcc5;
+  color: #f19328;
 }
 
-h5 {
-  font-weight: normal;
-  @extend %text-s;
+.h-main--teal {
+  border-color: #f8bc29;
+  color: #14bcc5;
 }
 
-h6 {
-  font-weight: normal;
-  @extend %text-xs;
-}
+
+

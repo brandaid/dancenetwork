@@ -18,9 +18,56 @@
 //
 // --------------------------------------------------------
 
-.container {
+.container, .section {
   @extend %clearfix;
   margin: 0 auto;
   max-width: $maxwidth; // restricts width
-  padding: 0 rem(32);   // adds padding on viewports less than the max-width
+}
+
+.container {
+    padding: 0 rem(32);   // adds padding on viewports less than the max-width
+}
+
+.section {
+    padding: 40px;
+
+    @include media('screen and #{map-get($breakpoints, "small")}', $no-query-fallback: true) {
+        padding: 80px;
+    }
+
+    @include media('screen and #{map-get($breakpoints, "medium")}', $no-query-fallback: true) {
+        padding: 110px 0 110px 200px;
+    }
+}
+
+.section--full {
+    @extend %clearfix;
+
+    background-color: #fff;
+    background-position: -35px 100px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.section--01 {
+  background-image: url(#{$baseurl}/img/numbers/one.svg);
+}
+.section--02 {
+  background-image: url(#{$baseurl}/img/numbers/two.svg);
+}
+.section--03 {
+  background-image: url(#{$baseurl}/img/numbers/three.svg);
+}
+.section--04 {
+  background-image: url(#{$baseurl}/img/numbers/four.svg);
+}
+.section--05 {
+  background-image: url(#{$baseurl}/img/numbers/five.svg);
+}
+
+
+@include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: false) {
+    .section--full {
+      background-image: none;
+    }
 }

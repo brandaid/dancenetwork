@@ -1,0 +1,118 @@
+.quote {
+  @extend %clearfix;
+
+  background-color: #000;
+  position: relative;
+  width: 100%;
+}
+
+.quote__img {
+  width: 100%;
+}
+
+.quote__img-block {
+  overflow: hidden;
+}
+
+.quote__text {
+  max-width: 100%;
+}
+
+.quote__text--small {
+  display: none;
+}
+
+
+@include media('screen and #{map-get($breakpoints, "medium")}', $no-query-fallback: true) {
+
+  .quote {
+    display: table;
+  }
+
+  .quote__img-block,
+  .quote__text-block {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+  }
+
+  .quote__text-block--left {
+    padding-right: 40px;
+    text-align: left;
+  }
+
+  .quote__text-block--right {
+    padding-left: 40px;
+    text-align: right;
+  }
+
+}
+
+
+@include media('screen and #{map-get($breakpoints-max, "medium")}', $no-query-fallback: false) {
+
+  .quote__img {
+    max-height: 450px;
+    width: auto;
+  }
+
+  .quote__img--01 {
+    margin-right: -240px;
+  }
+
+  .quote__img--02 {
+    margin-left: -220px;
+  }
+
+  .quote__img--03 {
+    margin-right: -300px;
+  }
+
+  .quote__img--04 {
+    margin-left: -280px;
+  }
+
+
+  .quote__text--large {
+    display: none;
+  }
+
+  .quote__text--small {
+    display: block;
+  }
+
+}
+
+
+@include media('screen and (max-width: 580px)', $no-query-fallback: false) {
+
+  .quote__img-block,
+  .quote__text-block {
+    display: block;
+    width: 100%;
+  }
+
+  .quote__img {
+    max-height: 300px;
+    width: auto;
+  }
+
+  .quote__img--left {
+    float: left;
+    margin-left: 0;
+  }
+
+  .quote__img--right {
+    float: right;
+    margin-right: 0;
+  }
+
+  .quote__text-block {
+    padding: 40px;
+  }
+
+  .quote__text--small {
+    margin: 0 auto;
+  }
+
+}

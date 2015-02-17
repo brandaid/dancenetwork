@@ -16,7 +16,17 @@ module.exports = function(grunt) {
             dist: {
                 files: {
                     'js/global.js' : [
-                    'js/scripts/logging.js'
+                    'js/scripts/logging.js',
+                    'js/plugins/skrollr.min.js',
+                    'js/plugins/flickity.pkgd.js',
+                    'js/plugins/bootstrap.min.js',
+
+                    'js/scripts/base.js',
+                    'js/scripts/animate.js',
+                    'js/scripts/sign-up.js',
+                    'js/scripts/scroll-to.js',
+                    'js/scripts/parallax.js',
+                    'js/scripts/svg.js'
                     ]
                 }
             },

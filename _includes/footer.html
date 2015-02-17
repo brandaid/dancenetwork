@@ -2,13 +2,15 @@
     <footer class="site-footer" role="contentinfo">
       <div class="container">
 
-        <nav class="site-nav--footer">
-          <ul class="nav" role="navigation">
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
-        </nav>
+        <ul class="social">
+          <li><a href="http://facebook.com/watchdancetv"><img src="{{baseurl}}img/social/facebook.svg" width="7"></a></li>
+          <li><a href="http://twitter.com/watchdancetv"><img src="{{baseurl}}img/social/twitter.svg" width="22"></a></li>
+          <li><a href="http://instagram.com/watchdancetv"><img src="{{baseurl}}img/social/instagram.svg" width="15"></a></li>
+          <li><a href="http://pinterest.com/watchdancetv"><img src="{{baseurl}}img/social/pinterest.svg" width="15"></a></li>
+          <li><a href="http://youtube.com/dancenetwork"><img src="{{baseurl}}img/social/youtube.svg" width="21"></a></li>
+        </ul>
+
+        <p class="site-credits">&copy; Dance Network 2015 &mdash; All Rights Reserved</p>
 
       </div>
     </footer>
@@ -17,5 +19,14 @@
     <script>window.jQuery || document.write('<script src="{{ baseurl }}vendor/jquery/dist/jquery.min.js"><\/script>')</script>
     <script src="{{ baseurl }}js/global.min.js"></script>
     {% if page.javascript %}<script src="{{ baseurl }}js/{{ page.javascript }}"></script>{% endif %}
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-57089935-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 </body>
 </html>

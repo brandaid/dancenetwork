@@ -48,76 +48,12 @@ $spacing-xxs            : modular-scale(rem($vertical-rhythm), -2, 1.618); // 3
 // breakpoints - should always be based off of a 16px base
 $bp-xl                  : em(1280,16);
 $bp-l                   : em(960,16);
-$bp-m                   : em(769,16);
+$bp-m                   : em(640,16);
 $bp-s                   : em(481,16);
 $bp-xs                  : em(480,16);
 
-$maxwidth               : em(1440);
+$maxwidth               : em(1140);
 
-
-
-
-// --------------------------------------------------------
-//
-//  Typography
-//
-// --------------------------------------------------------
-
-.text-xxl,
-%text-xxl {
-  font-size: modular-scale(em($base-font-size),  2, 1.333);
-  line-height: 1.25;
-  @include media('(min-width: #{$bp-s})') {
-    font-size: modular-scale(em($base-font-size),  3, 1.333);
-    line-height: 1.125;
-  }
-}
-
-.text-xl,
-%text-xl {
-  font-size: modular-scale(em($base-font-size),  1, 1.333);
-  line-height: 1.3333333333;
-  @include media('(min-width: #{$bp-s})') {
-    font-size: modular-scale(em($base-font-size),  2, 1.333);
-    line-height: 1.25;
-  }
-}
-
-.text-l,
-%text-l {
-  font-size: modular-scale(em($base-font-size),  0, 1.333);
-  line-height: $base-line-height;
-  @include media('(min-width: #{$bp-s})') {
-    font-size: modular-scale(em($base-font-size),  1, 1.333);
-    line-height: 1.3333333333;
-  }
-}
-
-.text-m,
-%text-m {
-  font-size: modular-scale(em($base-font-size),  -1, 1.333);
-  line-height: 1.7142857143;
-  @include media('(min-width: #{$bp-s})') {
-    font-size: modular-scale(em($base-font-size),  0, 1.333);
-    line-height: $base-line-height;
-  }
-}
-
-.text-s,
-%text-s {
-  font-size: modular-scale(em($base-font-size),  -2, 1.333);
-  line-height: 2;
-  @include media('(min-width: #{$bp-s})') {
-    font-size: modular-scale(em($base-font-size),  -1, 1.333);
-    line-height: 1.7142857143;
-  }
-}
-
-.text-xs,
-%text-xs {
-  font-size: modular-scale(em($base-font-size),  -2, 1.333);
-  line-height: 2;
-}
 
 
 
@@ -138,16 +74,17 @@ $push:                  false;
 $pull:                  false;
 
 $breakpoints: (
-    'medium' '(min-width: #{$bp-s})',
-    'large' '(min-width: #{$bp-l})',
-    'wide' '(min-width: #{$bp-xl})'
+    'small' : '(min-width: #{$bp-xs})',
+    'medium': '(min-width: #{$bp-s})',
+    'large' : '(min-width: #{$bp-l})',
+    'wide'  : '(min-width: #{$bp-xl})'
 );
 // max-width breakpoints for use in _2_layout/_hide.scss
 // an inverse of the above (minus 1 pixel) should be good
 $breakpoints-max: (
-    'small' '(max-width: #{$bp-xs})',
-    'medium' '(max-width: #{$bp-l - em(1,16)})',
-    'large' '(max-width: #{$bp-xl - em(1,16)})'
+    'small' : '(max-width: #{$bp-xs})',
+    'medium': '(max-width: #{$bp-l - em(1,16)})',
+    'large' : '(max-width: #{$bp-xl - em(1,16)})'
 );
 
 $breakpoint-has-widths: ('medium', 'large', 'wide');
