@@ -103,6 +103,10 @@
   font-size: 26px;
 }
 
+.lte-ie8 .flickity-prev-next-button {
+  display: none;
+}
+
 /* ---- page dots ---- */
 
 .flickity-page-dots {
@@ -136,6 +140,10 @@
   // opacity: 1;
   background: #fff;
   box-shadow: 0 0 0 2px #14bcc5;
+
+  .lte-ie8 & {
+    border: 1px solid #14bcc5;
+  }
 }
 
 

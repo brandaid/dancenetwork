@@ -23,7 +23,7 @@
 }
 
 
-@include media('screen and #{map-get($breakpoints, "medium")}', $no-query-fallback: false) {
+@include media('screen and #{map-get($breakpoints, "medium")}', $no-query-fallback: true) {
 
   .quote {
     display: table;

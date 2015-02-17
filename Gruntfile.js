@@ -25,7 +25,8 @@ module.exports = function(grunt) {
                     'js/scripts/animate.js',
                     'js/scripts/sign-up.js',
                     'js/scripts/scroll-to.js',
-                    'js/scripts/parallax.js'
+                    'js/scripts/parallax.js',
+                    'js/scripts/svg.js'
                     ]
                 }
             },
