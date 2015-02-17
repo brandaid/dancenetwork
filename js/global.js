@@ -6891,7 +6891,8 @@ var scrollAnimations = (function ($) {
   var latestKnownScrollY = 0,
       ticking = false,
       $window = $(window),
-      window_height = $window.outerHeight();
+      window_height = $window.outerHeight(),
+      $back_to_top;
 
 
   function requestTick() {
@@ -6910,7 +6911,24 @@ var scrollAnimations = (function ($) {
 
     var window_bottom = currentScrollY + window_height;
 
+    if(currentScrollY > 200) {
+        $back_to_top.addClass('is-visible');
+    } else {
+        $back_to_top.removeClass('is-visible');
+    }
+
     animateSections(window_bottom);
+  }
+
+  function backToTop(){
+    var back_to_top = '<a class="page-top js-back-to-top" href="#top"><img src="/img/arrow-up.svg"></a>';
+    $(back_to_top).insertAfter('.site-footer');
+
+    $back_to_top = $('.js-back-to-top');
+
+    $('.js-back-to-top').click(function(evt){
+        $(window).scrollTop(0);
+    });
   }
 
   function animateSections(window_bottom){
@@ -6931,6 +6949,7 @@ var scrollAnimations = (function ($) {
     }
   }
 
+  $(backToTop);
 
   $window.on({
     // if in view when the page loads
@@ -6963,9 +6982,9 @@ var signUpForm = (function ($) {
     $('.js-sign-up').on('submit', function(e){
         e.preventDefault();
 
-        var email = $('input[name="email"').val(),
-            name  = $('input[name="name"').val(),
-            dance = $('select[name="dance"').val(),
+        var email = $('input[name="email"]').val(),
+            name  = $('input[name="name"]').val(),
+            dance = $('select[name="dance"]').val(),
             $this = $(this);
 
         removeAlert($signup);

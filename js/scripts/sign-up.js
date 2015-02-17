@@ -15,9 +15,9 @@ var signUpForm = (function ($) {
     $('.js-sign-up').on('submit', function(e){
         e.preventDefault();
 
-        var email = $('input[name="email"').val(),
-            name  = $('input[name="name"').val(),
-            dance = $('select[name="dance"').val(),
+        var email = $('input[name="email"]').val(),
+            name  = $('input[name="name"]').val(),
+            dance = $('select[name="dance"]').val(),
             $this = $(this);
 
         removeAlert($signup);

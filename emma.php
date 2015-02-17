@@ -8,7 +8,7 @@ $private_api_key = "8cb80d456e571ba19527";
 $email = $_POST['email'];
 $name = $_POST['name'];
 $dance = $_POST['dance'];
-$groups = array(1892322);
+$groups = array(1894370);
 
 // Member data other than email should be passed in an array called "fields"
 $member_data = array(

@@ -66,25 +66,24 @@
 }
 
 .hero__video {
-  background: url(#{$baseurl}video/hero.jpg) no-repeat;
+  background: #000 url(#{$baseurl}img/hero-replace.jpg) no-repeat;
   background-size: cover;
   bottom: 0;
   height: auto;
+  left: 0;
   min-height: 100%;
   min-width: 100%;
   position: fixed;
   right: 0;
+  top: 0;
   width: auto;
   z-index: -1;
 }
 
+
+
 // Crudely hide the video from iOS
 @include media('screen and (max-width: 800px)', $no-query-fallback: false) {
-  .hero {
-    background: #fff url(#{$baseurl}img/hero-replace.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }
-
   .hero__inner {
     background: transparent url(#{$baseurl}img/dot-grid.png) repeat 50% 50%;
     bottom: 0;
@@ -93,7 +92,6 @@
     right: 0;
     top: 0;
   }
-
   .hero__video {
     display: none;
   }
