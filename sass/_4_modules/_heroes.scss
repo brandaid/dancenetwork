@@ -92,6 +92,10 @@
     right: 0;
     top: 0;
   }
+  .hero {
+    background: #000 url(#{$baseurl}img/hero-replace.jpg) no-repeat;
+    background-size: cover;
+  }
   .hero__video {
     display: none;
   }
