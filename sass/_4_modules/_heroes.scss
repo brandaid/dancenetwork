@@ -55,6 +55,10 @@
 
 .hero__heading {
   @include brandon;
+
+  text-shadow: 1px 1px 0 #14103e, 2px 2px 0 #14103e,
+               3px 3px 0 #14103e, 4px 4px 0 #14103e,
+               5px 5px 0 #14103e;
   font-size: 154px;
   line-height: 120px;
   max-width: $maxwidth;
