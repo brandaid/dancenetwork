@@ -40,6 +40,18 @@
     }
 }
 
+.section--no-pad {
+  padding-bottom: 20px;
+
+  @include media('screen and #{map-get($breakpoints, "small")}', $no-query-fallback: true) {
+      padding-bottom: 40px;
+  }
+
+  @include media('screen and #{map-get($breakpoints, "medium")}', $no-query-fallback: true) {
+      padding-bottom: 55px;
+  }
+}
+
 .section--full {
     @extend %clearfix;
 
