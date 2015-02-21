@@ -38,8 +38,11 @@
 
 .btn {
   @include sans-bold;
-  background: #f8bc29 url(#{$baseurl}img/arrow-right-small.svg) no-repeat 100% 50%;
-  border: 0;
+  background-color: #f8bc29;
+  background-image: url(#{$baseurl}img/yellow-arrow-right-small.svg);
+  background-position: 100% 16px;
+  background-repeat: no-repeat;
+  border: 1px solid #f8bc29;
   color: #fff;
   display: inline-block;
   font-size: 20px;
@@ -47,45 +50,36 @@
   outline: 0;
   padding: 20px 60px 20px 30px;
   text-transform: uppercase;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
   vertical-align: middle;
 
-  &.is-active {
-    opacity: .75;
-  }
-  &:hover,
-  &:focus {
-    opacity: .85;
+  &:hover {
+    background-color: #fff;
+    background-position: 100% -30px;
+    color: #f8bc29;
   }
 }
 
 .btn--large {
-  background: #f8bc29 url(#{$baseurl}img/arrow-right.svg) no-repeat 100% 50%;
+  background: #f8bc29 url(#{$baseurl}img/yellow-arrow-right.svg) no-repeat 100% 24px;
   font-size: 24px;
   padding: 30px 80px 30px 40px;
+
+  &:hover {
+    background-position: 100% -53px;
+  }
 }
 
 .btn--red {
   background-color: #e02e26;
+  background-image: url(#{$baseurl}img/red-arrow-right-small.svg);
+  border-color: #e02e26;
+
+  &:hover {
+    color: #e02e26;
+  }
 }
-
-
-
-
-//
-//   @btn--large
-// --------------------------------------------------------
-//
-//  A btn modifier, large
-//
-//  Example: .btn--large
-//  <a class="btn btn--large">Large button</a>
-//
-// --------------------------------------------------------
-
-.btn--large {
-
-}
-
 
 
 

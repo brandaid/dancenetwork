@@ -40,6 +40,18 @@
     }
 }
 
+.section--no-pad {
+  padding-bottom: 20px;
+
+  @include media('screen and #{map-get($breakpoints, "small")}', $no-query-fallback: true) {
+      padding-bottom: 40px;
+  }
+
+  @include media('screen and #{map-get($breakpoints, "medium")}', $no-query-fallback: true) {
+      padding-bottom: 55px;
+  }
+}
+
 .section--full {
     @extend %clearfix;
 
@@ -65,8 +77,8 @@
   background-image: url(#{$baseurl}/img/numbers/five.svg);
 }
 
-
-@include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: false) {
+// Hide numbers before they overlap headings
+@include media('screen and (max-width: 1490px)', $no-query-fallback: false) {
     .section--full {
       background-image: none;
     }
