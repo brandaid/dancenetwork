@@ -39,7 +39,7 @@
 .btn {
   @include sans-bold;
   background: #f8bc29 url(#{$baseurl}img/arrow-right-small.svg) no-repeat 100% 50%;
-  border: 0;
+  border: 1px solid #f8bc29;
   color: #fff;
   display: inline-block;
   font-size: 20px;
@@ -47,14 +47,13 @@
   outline: 0;
   padding: 20px 60px 20px 30px;
   text-transform: uppercase;
+  transition: all 0.3s ease-in;
   vertical-align: middle;
 
-  &.is-active {
-    opacity: .75;
-  }
   &:hover,
   &:focus {
-    opacity: .85;
+    background-color: #fff;
+    color: #f8bc29;
   }
 }
 
@@ -66,6 +65,11 @@
 
 .btn--red {
   background-color: #e02e26;
+  border-color: #e02e26;
+
+  &:hover {
+    color: #e02e26;
+  }
 }
 
 
