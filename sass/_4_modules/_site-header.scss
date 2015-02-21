@@ -24,17 +24,28 @@
 // --------------------------------------------------------
 
 .branding {
+  background-color: #9f1897;
+  display: block;
+  height: 206px;
+  left: 0;
+  padding: 64px 0 0 4px;
+  position: absolute;
+  top: 0;
+  width: 206px;
+  z-index: 10;
+}
+
+.logo--left {
   float: left;
+  margin-right: 50px;
+  width: 325px;
+
+  @include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: false) {
+    float: none;
+    margin: 0 0 20px;
+    width: 280px;
+  }
 }
-
-.branding__logo {
-
-}
-
-.branding__wordmark {
-
-}
-
 
 
 
@@ -44,5 +55,7 @@
 // --------------------------------------------------------
 
 .site-nav {
-  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
