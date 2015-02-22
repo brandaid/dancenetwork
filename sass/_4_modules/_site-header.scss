@@ -23,6 +23,12 @@
 //  </a>
 // --------------------------------------------------------
 
+.site-header {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
 .branding {
   background-color: #9f1897;
   display: block;
@@ -32,7 +38,6 @@
   position: absolute;
   top: 0;
   width: 206px;
-  z-index: 10;
 
   @include media('screen and #{map-get($breakpoints-max, "medium")}', $no-query-fallback: false) {
     height: 135px;
@@ -40,7 +45,7 @@
     width: 174px;
   }
 
-  @include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: false) {
+  @include media('screen and (max-width: 540px)', $no-query-fallback: false) {
     display: none;
   }
 }
@@ -66,6 +71,36 @@
 
 .site-nav {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 150px;
+  top: 74px;
+
+  li {
+    margin-left: 42px;
+  }
+
+  @include media('screen and #{map-get($breakpoints-max, "medium")}', $no-query-fallback: false) {
+
+    right: 75px;
+    top: 37px
+
+  }
+
+  @include media('screen and (max-width: 540px)', $no-query-fallback: false) {
+    margin-right: -125px;
+    right: 50%;
+    top: 20px;
+
+    a {
+      font-size: 16px;
+    }
+
+    li {
+      margin-left: 24px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+
+  }
 }

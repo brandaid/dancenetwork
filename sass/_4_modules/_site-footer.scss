@@ -18,6 +18,16 @@
 }
 
 
+.branding__logo {
+    float: left;
+
+    @include media('screen and (max-width: 720px)', $no-query-fallback: false) {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
 
 
 //   @site-credits
@@ -29,20 +39,45 @@
     color: #fff;
     float: right;
     font-size: 14px;
+    margin-top: 7px;
     text-align: right;
 
-    @include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: false) {
-        margin-top: 10px;
+    @include media('screen and (max-width: 720px)', $no-query-fallback: false) {
+        text-align: center;
+        width: 100%;
     }
 }
 
 
 
+.footer__wrap {
+    float: right;
+    margin-top: 14px;
+
+    @include media('screen and (max-width: 720px)', $no-query-fallback: false) {
+        float: none;
+        margin-top: 0px;
+    }
+}
 
 .social {
     float: right;
+
     > li {
         display: inline-block;
         margin-left: 20px;
+    }
+
+    @include media('screen and (max-width: 720px)', $no-query-fallback: false) {
+        float: none;
+        left: -50%;
+        margin-bottom: 15px;
+        position: relative;
+        text-align: center;
+        transform: translate(50%, 50%);
+
+        > li:first-child {
+            margin-left: 0;
+        }
     }
 }
