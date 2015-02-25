@@ -67,6 +67,12 @@
     line-height: .9;
     padding: 0 40px;
   }
+  
+  @include media('screen and #{map-get($breakpoints-max, "medium")}', $no-query-fallback: false) {
+    font-size: 64px;
+    line-height: 1;
+    padding: 0 40px;
+  }
 
   @include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: false) {
     font-size: 43px;
