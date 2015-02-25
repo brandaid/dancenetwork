@@ -104,3 +104,140 @@
 
   }
 }
+
+
+//   @mobile-nav
+// --------------------------------------------------------
+//  Main Site Navigation
+// --------------------------------------------------------
+.mobile-nav__btn {
+  display: none;
+}
+
+@include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: true) {
+
+  .site-nav {
+    display: none;
+  }
+
+  .mobile-nav__btn {
+    display: inline-block;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 50px;
+    z-index: 25;
+
+    .top-bar,
+    .middle-bar,
+    .bottom-bar {
+      background-color: color('white');
+      border-radius: 4px;
+      height: 3px;
+      left: 0px;
+      position: absolute;
+      transition: transform 0.15s 0s ease-in-out,
+                  top 0.15s 0.1s ease-in-out;
+      transform-origin: 50% 50%;
+      top: 2px;
+      width: 50px;
+    }
+    .middle-bar {
+      opacity: 0s 0.15s linear;
+      top: 17px;
+    }
+    .bottom-bar {
+      top: 32px;
+    }
+
+    &.is-open {
+      .top-bar,
+      .bottom-bar {
+        top: 17px;
+        transition: top 0.15s 0.1s ease-in-out,
+                    transform 0.15s 0.2s ease-in-out;
+      }
+      .top-bar {
+        transform: rotate(45deg);
+      }
+      .middle-bar {
+        opacity: 0;
+      }
+      .bottom-bar {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+}
+
+.mobile-nav__close {
+  background-color: #e02e26;
+  border: 0;
+  color: #fff;
+  height: 58px;
+  font-size: 40px;
+  outline: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 58px;
+
+  &:hover,
+  &:focus {
+    opacity: .85;
+  }
+}
+
+.mobile-nav {
+  background-color: #222;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  padding-top: 100px;
+  position: fixed;
+  right: 0;
+  transition: opacity 0.15s 0.3s ease-in;
+  top: 0;
+  z-index: -1;
+
+  &.is-visible {
+    opacity: 1;
+    z-index: 20;
+  }
+
+  li:first-child {
+    border-top: 1px solid #1d1d1d;
+  }
+}
+
+.mobile-nav__link {
+  background-position: 30px 50%;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #1d1d1d;
+  color: #e02e26;
+  display: block;
+  line-height: 1;
+  padding: 25px 80px 25px 120px;
+  font-size: 31px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.mobile-nav__link--home {
+  background-image: url(#{$baseurl}/img/nav/home.svg);
+}
+
+.mobile-nav__link--about {
+  background-image: url(#{$baseurl}/img/nav/user.svg);
+}
+
+.mobile-nav__link--video {
+  background-image: url(#{$baseurl}/img/nav/video.svg);
+}

@@ -26,7 +26,8 @@ module.exports = function(grunt) {
                     'js/scripts/sign-up.js',
                     'js/scripts/scroll-to.js',
                     'js/scripts/parallax.js',
-                    'js/scripts/svg.js'
+                    'js/scripts/svg.js',
+                    'js/scripts/mobile-nav.js'
                     ]
                 }
             },
