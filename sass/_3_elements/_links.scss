@@ -26,7 +26,6 @@
 a {
     transition: color .3s ease-in-out;
     &:link { color: color('blue'); }
-    &:visited { color: color('purple'); }
     &:hover { color: color('aqua'); }
     &:active { color: color('orange'); }
 }
