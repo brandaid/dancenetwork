@@ -57,7 +57,7 @@
   @include brandon;
   text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
   font-size: 154px;
-  line-height: 120px;
+  line-height: 1;
   max-width: $maxwidth;
   padding: 0 80px;
   text-transform: uppercase;
@@ -69,7 +69,6 @@
 
   @include media('screen and #{map-get($breakpoints-max, "small")}', $no-query-fallback: false) {
     font-size: 43px;
-    line-height: 1.25;
     padding: 0 40px;
   }
 }
