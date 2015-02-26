@@ -62,12 +62,6 @@
   padding: 0 80px;
   text-transform: uppercase;
 
-  @include media('screen and (max-width: 640px)', $no-query-fallback: false) {
-    font-size: 86px;
-    line-height: .9;
-    padding: 0 40px;
-  }
-  
   @include media('screen and #{map-get($breakpoints-max, "medium")}', $no-query-fallback: false) {
     font-size: 64px;
     line-height: 1;
