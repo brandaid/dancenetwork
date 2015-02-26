@@ -60,6 +60,14 @@
     }
 }
 
+html[data-platform="iPhone"] {
+    &.js .faded, &.js .faded-out, &.js .faded-out-left, &.js .faded-out-right {
+        opacity: 1;
+        transition: none;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
 
 
 @keyframes fadeInRight {

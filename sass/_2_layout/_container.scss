@@ -35,7 +35,7 @@
         padding: 80px;
     }
 
-    @include media('screen and #{map-get($breakpoints, "medium")}', $no-query-fallback: true) {
+    @include media('screen and #{map-get($breakpoints, "large")}', $no-query-fallback: true) {
         padding: 110px 0 110px 200px;
     }
 }
