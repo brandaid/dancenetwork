@@ -46,11 +46,6 @@
   position: absolute;
   transform: translateY(-50%);
   top: 50%;
-
-  @include media('screen and (max-width: 480px)', $no-query-fallback: true) {
-    transform: none;
-    top: 80px;
-  }
 }
 
 .hero__heading {
