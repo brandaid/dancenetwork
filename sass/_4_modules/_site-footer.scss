@@ -43,12 +43,21 @@
     text-align: right;
 
     @include media('screen and (max-width: 720px)', $no-query-fallback: false) {
+        margin-top: 10px;
         text-align: center;
         width: 100%;
     }
 }
 
+.footer__wrap {
+    float: right;
+    margin-top: 14px;
 
+    @include media('screen and (max-width: 720px)', $no-query-fallback: false) {
+        float: none;
+        margin-top: 0px;
+    }
+}
 
 .footer__wrap {
     float: right;

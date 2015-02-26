@@ -38,12 +38,14 @@
   position: absolute;
   top: 0;
   width: 206px;
+  z-index: 10;
 
   @include media('screen and #{map-get($breakpoints-max, "medium")}', $no-query-fallback: false) {
     height: 135px;
     padding-top: 32px;
     width: 174px;
   }
+
 
   @include media('screen and (max-width: 540px)', $no-query-fallback: false) {
     display: none;

@@ -7,9 +7,11 @@ title: Sample Page Title
 
     <div class="section section--no-pad">
         <h1 class="h-main h-main--navy faded-out">We Do Too!</h1>
-        <p class="main-text faded-out">We love watching dancing on TV, viewing the best videos online, and going to competitions, and we love to dance ourselves. But it’s never been all in one place. It will be soon.</p>
+        <p class="main-text faded-out">We love watching dancing on TV, viewing the best videos online, going to competitions, and we love to dance ourselves. But it’s never been all in one place. It will be soon.</p>
 
-        <p class="main-text faded-out">Introducing Dance Network, coming soon to a screen near you.</p>
+        <p class="main-text main-text--last faded-out">Introducing Dance Network, coming soon to a screen near you.</p>
+
+        <img src="{{ baseurl }}/img/logo/logo-red.svg" width="326">
     </div>
 
     <div class="gallery js-flickity"
@@ -85,8 +87,12 @@ title: Sample Page Title
 <div class="section--full section--04">
 
     <div class="section">
-        <img class="logo--left" src="{{ baseurl }}/img/logo/logo-dark.svg">
-        <h1 class="h-main h-main--red u-size-fill faded-out">Coming 2015</h1>
+        {% comment %}
+            <img class="logo--left" src="{{ baseurl }}/img/logo/logo-dark.svg">
+            <h1 class="h-main h-main--red u-size-fill faded-out">Coming 2015</h1>
+        {% endcomment %}
+
+        <h1 class="h-main h-main--red faded-out">Coming 2015</h1>
     </div>
 
 </div>
