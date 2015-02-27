@@ -60,7 +60,8 @@
     }
 }
 
-html[data-platform="iPhone"] {
+html[data-platform="iPhone"],
+html[data-platform="iPad"] {
     &.js .faded, &.js .faded-out, &.js .faded-out-left, &.js .faded-out-right {
         opacity: 1;
         transition: none;
