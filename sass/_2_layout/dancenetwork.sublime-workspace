@@ -255,7 +255,7 @@
 			"file": "/Users/npruitt/Sites/dancenetwork/_includes/footer.html",
 			"settings":
 			{
-				"buffer_size": 773,
+				"buffer_size": 4077,
 				"line_ending": "Unix"
 			}
 		},
@@ -271,7 +271,7 @@
 			"file": "/Users/npruitt/Sites/dancenetwork/index.html",
 			"settings":
 			{
-				"buffer_size": 2207,
+				"buffer_size": 4738,
 				"line_ending": "Unix"
 			}
 		},
@@ -279,15 +279,7 @@
 			"file": "/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_quote.scss",
 			"settings":
 			{
-				"buffer_size": 404,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dancenetwork.sublime-project",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 1583,
 				"line_ending": "Unix"
 			}
 		},
@@ -295,7 +287,7 @@
 			"file": "/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_text.scss",
 			"settings":
 			{
-				"buffer_size": 1428,
+				"buffer_size": 1607,
 				"line_ending": "Unix"
 			}
 		},
@@ -303,7 +295,7 @@
 			"file": "/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_site-document.scss",
 			"settings":
 			{
-				"buffer_size": 1044,
+				"buffer_size": 824,
 				"line_ending": "Unix"
 			}
 		},
@@ -311,7 +303,7 @@
 			"file": "/Users/npruitt/Sites/dancenetwork/_layouts/home.html",
 			"settings":
 			{
-				"buffer_size": 391,
+				"buffer_size": 771,
 				"line_ending": "Unix"
 			}
 		},
@@ -327,7 +319,7 @@
 			"file": "/Users/npruitt/Sites/dancenetwork/sass/_1_base/_fonts.scss",
 			"settings":
 			{
-				"buffer_size": 2328,
+				"buffer_size": 2325,
 				"line_ending": "Unix"
 			}
 		},
@@ -343,7 +335,7 @@
 			"file": "_container.scss",
 			"settings":
 			{
-				"buffer_size": 831,
+				"buffer_size": 2044,
 				"line_ending": "Unix"
 			}
 		},
@@ -361,7 +353,7 @@
 			"file": "/Users/npruitt/Sites/dancenetwork/sass/_1_base/_vars.scss",
 			"settings":
 			{
-				"buffer_size": 6676,
+				"buffer_size": 5235,
 				"line_ending": "Unix"
 			}
 		},
@@ -369,7 +361,7 @@
 			"file": "/Users/npruitt/Sites/dancenetwork/_includes/header.html",
 			"settings":
 			{
-				"buffer_size": 545,
+				"buffer_size": 588,
 				"line_ending": "Unix"
 			}
 		},
@@ -377,7 +369,7 @@
 			"file": "/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_headings.scss",
 			"settings":
 			{
-				"buffer_size": 1173,
+				"buffer_size": 1323,
 				"line_ending": "Unix"
 			}
 		}
@@ -458,6 +450,7 @@
 	},
 	"file_history":
 	[
+		"/Users/npruitt/Sites/dancenetwork/sass/_2_layout/dancenetwork.sublime-project",
 		"/Users/npruitt/Sites/dancenetwork/.scss-lint.yml",
 		"/Users/npruitt/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
 		"/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_quote.scss",
@@ -584,8 +577,7 @@
 		"/Users/npruitt/RoundingWell/RWell/mainapp/classes/model/engagementstats.php",
 		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-desktop/components/content-editable.js",
 		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/templates/desktop/Clinicians/context-trail.item.hbs",
-		"/Users/npruitt/RoundingWell/RWell/mainapp/gulp/config.js",
-		"/Users/npruitt/RoundingWell/RWell/mainapp/assets/js/rwprovider-mobile/rwprovider_views.js"
+		"/Users/npruitt/RoundingWell/RWell/mainapp/gulp/config.js"
 	],
 	"find":
 	{
@@ -794,7 +786,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -823,7 +815,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -832,7 +824,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 773,
+						"buffer_size": 4077,
 						"regions":
 						{
 						},
@@ -853,7 +845,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -883,7 +875,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -892,67 +884,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2207,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								548,
-								548
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 174.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_quote.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 404,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								303,
-								303
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Seti_UI/Prefs/Langs/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "dancenetwork.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 4738,
 						"regions":
 						{
 						},
@@ -965,8 +897,38 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 174.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_quote.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Seti_UI/Prefs/Langs/SCSS.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -977,20 +939,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_text.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1428,
+						"buffer_size": 1607,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1428,
-								1428
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1001,24 +963,24 @@
 						"translation.y": 261.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "/Users/npruitt/Sites/dancenetwork/sass/_4_modules/_site-document.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1044,
+						"buffer_size": 824,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								879,
-								879
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1030,24 +992,24 @@
 						"translation.y": 101.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "/Users/npruitt/Sites/dancenetwork/_layouts/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 391,
+						"buffer_size": 771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								238,
-								238
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1060,11 +1022,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "/Users/npruitt/Sites/dancenetwork/_config.yml",
 					"semi_transient": false,
 					"settings":
@@ -1087,27 +1049,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 81.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "/Users/npruitt/Sites/dancenetwork/sass/_1_base/_fonts.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2328,
+						"buffer_size": 2325,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1658,
-								1658
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1116,14 +1078,14 @@
 							"tab_size": 2
 						},
 						"translation.x": 0.0,
-						"translation.y": 879.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 10,
 					"file": "/Users/npruitt/Sites/dancenetwork/sass/_1_base/_mixins/_embed-font.scss",
 					"semi_transient": false,
 					"settings":
@@ -1149,39 +1111,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 11,
 					"file": "_container.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 831,
+						"buffer_size": 2044,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								764,
-								764
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Seti_UI/Prefs/Langs/SCSS.tmLanguage"
+							"syntax": "Packages/Seti_UI/Prefs/Langs/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 12,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1228,24 +1192,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 13,
 					"file": "/Users/npruitt/Sites/dancenetwork/sass/_1_base/_vars.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6676,
+						"buffer_size": 5235,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1760,
-								1760
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1258,24 +1222,24 @@
 						"translation.y": 627.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 14,
 					"file": "/Users/npruitt/Sites/dancenetwork/_includes/header.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 545,
+						"buffer_size": 588,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2,
-								2
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1288,24 +1252,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 15,
 					"file": "/Users/npruitt/Sites/dancenetwork/sass/_3_elements/_headings.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1173,
+						"buffer_size": 1323,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								869,
-								869
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1318,7 +1282,7 @@
 						"translation.y": 261.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]

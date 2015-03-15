@@ -7,14 +7,15 @@
     {% capture baseurl %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
     <!-- META -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     {% if page.description %}
         <meta name="description" content="{{ description }}">
     {% endif %}
 
     <!-- TITLE -->
     <title>{{ page.title }} | {{ site.name }}</title>
-
+    <meta name="robots" content="all">
+    <meta name="revisit-after" content="2 days">
     <!-- CSS -->
     <!-- For old IE -->
     <!--[if (lte IE 8)&!(IEMobile)]>
