@@ -64,6 +64,14 @@
   }
 }
 
+.logo--red {
+  width: 100%;
+
+  @include media('screen and #{map-get($breakpoints, "small")}', $no-query-fallback: true) {
+    width: 326px;
+  }
+}
+
 
 
 //   @site-nav
